@@ -1,4 +1,7 @@
 :root {
+    --grn-1: #0d940d;
+    --grn-2: #006400;
+    --acc-1: #ff4500;
     --tx-dk: #101010;
     --tx-lg: #fefefe;
     --tx-gy: #aaa;
@@ -15,6 +18,10 @@
     --h2-lh: 75px;
 }
 
+body {
+    font-family: var(--fn-bd);
+}
+
 h1 {
     font-family: var(--fn-hd);
     font-weight: 600;
@@ -24,7 +31,6 @@ h1 {
     letter-spacing: -1px;
     line-height: var(--h1-lh);
 }
-
 h2 {
     font-family: var(--fn-hd);
     font-weight: 500;
@@ -67,3 +73,12 @@ h6 {
     /* letter-spacing: -0.25px; */
 }
 
+a {
+    text-decoration: none;
+    color: var(--grn-1);
+    font-weight: 500;
+    transition: color 0.25s ease;
+}
+a:hover {
+    color: var(--acc-1);
+}
