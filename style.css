@@ -1,0 +1,20 @@
+:root {
+    --tx-dk: #101010;
+    --tx-lg: #fefefe;
+    --tx-gy: #aaa;
+    --fn-bd: 'Mulish', sans-serif;
+    --fn-hd: 'Poppins', sans-serif;
+    --fn-lg: 'Aguafina Script', cursive;
+    --h1-sz: 94px;
+    --h2-sz: 50px;
+    --h3-sz: 40px;
+    --h4-sz: 32px;
+    --h5-sz: 28px;
+    --h6-sz: 22px;
+}
+
+h1 {
+    color: var(--tx-gy);
+    font-family: var(--fn-hd);
+}
+
