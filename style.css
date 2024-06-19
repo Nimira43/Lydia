@@ -1,25 +1,43 @@
 :root {
+    /* colours */
     --grn-1: #0d940d;
     --grn-2: #006400;
+    --gol-1: #ffd700;
     --acc-1: #ff4500;
     --tx-dk: #101010;
     --tx-lg: #fefefe;
-    --tx-gy: #aaa;
+    --tx-gy: #909090;
+    --bg-wh: #fff;
+    --bg-lg: #eee;
+
+    /* fonts */
     --fn-bd: 'Mulish', sans-serif;
     --fn-hd: 'Poppins', sans-serif;
     --fn-lg: 'Aguafina Script', cursive;
+    /* heading tags */
     --h1-sz: 94px;
     --h2-sz: 50px;
     --h3-sz: 40px;
     --h4-sz: 32px;
     --h5-sz: 28px;
     --h6-sz: 22px;
+    /* heading line-heights */
     --h1-lh: 108px;
     --h2-lh: 75px;
+    /* spacing */
+    --sp-sm: 8px;
+    --sp-md: 16px;
+    --sp-lg: 32px;
+    --sp-xl: 64px;
 }
 
 body {
     font-family: var(--fn-bd);
+    color: var(--tx-dk);
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: var(--sp-sm) 0 0 0;
 }
 
 h1 {
