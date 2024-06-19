@@ -2,10 +2,12 @@
     /* colours */
     --grn-1: #05a705;
     --grn-2: #006400;
+    --grn-3: #90ee90;
     --gol-1: #ffd700;
-    --gol-2: darkgoldenrod;
+    --gol-2: #b8860b;
+    --gol-3: #ffffa8;
     --acc-1: #ff4500;
-    --tx-dk: #101010;
+    --tx-dk: #111;
     --tx-lg: #fefefe;
     --tx-gy: #909090;
     --bg-wh: #fff;
@@ -14,7 +16,7 @@
     --fn-bd: 'Mulish', sans-serif;
     --fn-hd: 'Poppins', sans-serif;
     --fn-lg: 'Aguafina Script', cursive;
-    /* heading tags sizes*/
+    /* heading and paragraph tag and text sizes*/
     --h1-sz: 94px;
     --h2-sz: 50px;
     --h3-sz: 40px;
@@ -22,10 +24,14 @@
     --h5-sz: 28px;
     --h6-sz: 22px;
     --sb-sz: 17px;
+    --pa-sz: 18px;
+    --sc-sz: 14px;
     /* heading line-heights */
     --h1-lh: 108px;
     --h2-lh: 75px;
     --sb-lh: 26px;
+    --pa-lh: 26px;
+    --sc-lh: 18px;
     /* spacing */
     --sp-sm: 8px;
     --sp-md: 16px;
@@ -93,6 +99,13 @@ h6 {
     /* letter-spacing: -0.25px; */
 }
 
+p {
+    font-size: var(--pa-sz);
+    line-height: var(--pa-lh);
+    font-weight: 400;
+    margin: var(--sp-md) 0;
+}
+
 a {
     text-decoration: none;
     color: var(--grn-1);
@@ -103,16 +116,23 @@ a:hover {
     color: var(--acc-1);
 }
 
-.subtitle-1,
-.subtitle-2 {
+.sub-t-1,
+.sub-t-2 {
     font-family: var(--fn-hd);
     font-weight: 500;
     font-size: var(--sb-sz);
     line-height: var(--sb-lh);
 }
-.subtitle-1 {
+.sub-t-1 {
     color: var(--grn-1);
 }
-.subtitle-2 {
+.sub-t-2 {
     color: var(--gol-2);
+}
+
+.sec-txt {
+    font-size: var(--sc-sz);
+    line-height: var(--sc-lh);
+    color: var(--tx-gy);
+    letter-spacing: 0.25;
 }
