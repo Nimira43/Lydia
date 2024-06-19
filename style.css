@@ -1,29 +1,31 @@
 :root {
     /* colours */
-    --grn-1: #0d940d;
+    --grn-1: #05a705;
     --grn-2: #006400;
     --gol-1: #ffd700;
+    --gol-2: darkgoldenrod;
     --acc-1: #ff4500;
     --tx-dk: #101010;
     --tx-lg: #fefefe;
     --tx-gy: #909090;
     --bg-wh: #fff;
     --bg-lg: #eee;
-
     /* fonts */
     --fn-bd: 'Mulish', sans-serif;
     --fn-hd: 'Poppins', sans-serif;
     --fn-lg: 'Aguafina Script', cursive;
-    /* heading tags */
+    /* heading tags sizes*/
     --h1-sz: 94px;
     --h2-sz: 50px;
     --h3-sz: 40px;
     --h4-sz: 32px;
     --h5-sz: 28px;
     --h6-sz: 22px;
+    --sb-sz: 17px;
     /* heading line-heights */
     --h1-lh: 108px;
     --h2-lh: 75px;
+    --sb-lh: 26px;
     /* spacing */
     --sp-sm: 8px;
     --sp-md: 16px;
@@ -99,4 +101,18 @@ a {
 }
 a:hover {
     color: var(--acc-1);
+}
+
+.subtitle-1,
+.subtitle-2 {
+    font-family: var(--fn-hd);
+    font-weight: 500;
+    font-size: var(--sb-sz);
+    line-height: var(--sb-lh);
+}
+.subtitle-1 {
+    color: var(--grn-1);
+}
+.subtitle-2 {
+    color: var(--gol-2);
 }
