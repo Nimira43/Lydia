@@ -39,6 +39,8 @@
     --sp-md: 16px;
     --sp-lg: 32px;
     --sp-xl: 64px;
+    /* others */
+    --st-wd: 1144px;
 }
 
 body {
@@ -48,6 +50,11 @@ body {
     margin: 0;
     box-sizing: border-box;
     padding: var(--sp-sm) 0 0 0;
+    background-color: var(--grn-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -176,4 +183,26 @@ a:hover {
 }
 .arr:hover > img {
     transform: translateX(4px);
+}
+
+/* -------------- START OF WEBSITE ------------- */
+
+.navbar {
+    width: 100%;
+    max-width: var(--st-wd);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.menu a {
+    color: var(--tx-lg);
+    margin: 0 var(--sp-md);
 }
