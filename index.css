@@ -32,6 +32,7 @@
   --size-10: 0.625rem;  /* 10px / 16 */
   --size-12: 0.75rem;   /* 12px / 16 */
   --size-15: 0.9375rem; /* 15px / 16 */
+  --size-16: 1rem;      /* 16px / 16 */
   --size-20: 1.25rem;   /* 20px / 16 */
   --size-25: 1.5625rem; /* 25px / 16 */
   --rem-1: 1rem;
@@ -42,6 +43,13 @@
   --rem-10: 10rem;
   --rem-15: 15rem;
   --rem-20: 20rem;
+
+  /* Spacing - Reference Purposes Only
+  --spacing-sm: var(--size-8);
+  --spacing-md: var(--rem-1);
+  --spacing-lg: var(--rem-2);
+  --spacing-xl: var(--rem-4); 
+  */
 
   /* Heading Variables */
   --h1-size: 5.875rem;  /* 94px / 16 */
@@ -55,7 +63,15 @@
 
   /* Transition */
   --transition: all 0.3s ease;
+}
 
+body {
+  font-family: var(--main-font);
+  color: var(--grey-extra-dark);
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: var(--size-8) 0 0 0;
 }
 
 /* Heading Common Style */
@@ -97,10 +113,10 @@ h6 {
   font-size: var(--h6-size);
 }    
 
+/* Anchor Tags */
 a {
   text-decoration: none;
   color: var(--grey-dark);
-  font-family: var(--main-font);
   font-weight: 500;
   transition: var(--transition);
 }
