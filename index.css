@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Great+Vibes&family=League+Spartan:wght@100..900&display=swap');
 
 :root {
+  /* Fonts */
+  --main-font: 'League Spartan', sans-serif;
+  --heading-font: 'Bebas Neue', sans-serif;
+  --logo-font: 'Great Vibes', cursive;
+  --features-font: 'Caveat', cursive;
+
   /* Colours */
   --primary: #ff4500;
   --primary-light: #de9479;
@@ -15,6 +21,7 @@
   --grey-dark: #555; 
   --grey-extra-dark: #333;
 
+  /* Common Sizes */
   --size-1: 0.0625rem;  /* 1px / 16 */
   --size-2: 0.125rem;   /* 2px / 16 */
   --size-3: 0.1875rem;  /* 3px / 16 */
@@ -36,19 +43,68 @@
   --rem-15: 15rem;
   --rem-20: 20rem;
 
-  /* Fonts */
-  --main-font: 'League Spartan', sans-serif;
-  --heading-font: 'Bebas Neue', sans-serif;
-  --logo-font: 'Great Vibes', cursive;
-  --features-font: 'Caveat', cursive;
+  /* Heading Variables */
+  --h1-size: 5.875rem;  /* 94px / 16 */
+  --h2-size: 3.125rem;  /* 50px / 16 */
+  --h3-size: 2.5rem;    /* 40px / 16 */
+  --h4-size: 2rem;      /* 32px / 16 */
+  --h5-size: 1.75rem;   /* 28px / 16 */
+  --h6-size: 1.375rem;  /* 22px / 16 */
+  --h1-line-height: 6.75rem;  /* 108px / 16 */
+  --h2-line-height: 4.6875rem;  /* 75px / 16 */
+
+  /* Transition */
+  --transition: all 0.3s ease;
+
 }
 
+/* Heading Common Style */
 h1, h2, h3, h4, h5, h6 {
   color: var(--grey-extra-dark);
   font-family: var(--heading-font);
-  letter-spacing: var(--size-2);
+  margin: 0;
+  width: 100%;
 }
 
-h1, h2, h3 {
-  letter-spacing: var(--size-3);
+/* Individual Heading Styles */
+h1 {
+  font-weight: 600;
+  font-size: var(--h1-size);
+  letter-spacing: -1px;
+  line-height: var(--h1-line-height);
+}
+h2 {
+  font-weight: 500;
+  font-size: var(--h2-size);
+  letter-spacing: -0.25px;
+  line-height: var(--h2-line-height);
+}
+h3 {
+  font-weight: 500;
+  font-size: var(--h3-size);
+}
+h4 {
+  font-weight: 500;
+  font-size: var(--h4-size);
+  letter-spacing: 0.25px;
+}
+h5 {
+  font-weight: 500;
+  font-size: var(--h5-size);
+}
+h6 {
+  font-weight: 600;
+  font-size: var(--h6-size);
+}    
+
+a {
+  text-decoration: none;
+  color: var(--grey-dark);
+  font-family: var(--main-font);
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--primary);
 }
