@@ -32,17 +32,16 @@
   --size-10: 0.625rem;  /* 10px / 16 */
   --size-12: 0.75rem;   /* 12px / 16 */
   --size-15: 0.9375rem; /* 15px / 16 */
-  --size-16: 1rem;      /* 16px / 16 */
   --size-20: 1.25rem;   /* 20px / 16 */
   --size-25: 1.5625rem; /* 25px / 16 */
-  --rem-1: 1rem;
-  --rem-2: 2rem;
-  --rem-3: 3rem;
-  --rem-4: 4rem;
-  --rem-5: 5rem;
-  --rem-10: 10rem;
-  --rem-15: 15rem;
-  --rem-20: 20rem;
+  --rem-1: 1rem;     /* 16px */
+  --rem-2: 2rem;     /* 32px */
+  --rem-3: 3rem;     /* 48px */
+  --rem-4: 4rem;     /* 64px */
+  --rem-5: 5rem;     /* 80px */
+  --rem-10: 10rem;   /* 160px */
+  --rem-15: 15rem;   /* 240px */
+  --rem-20: 20rem;   /* 320px */
 
   /* Spacing - Reference Purposes Only
   --spacing-sm: var(--size-8);
