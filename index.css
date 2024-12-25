@@ -2,12 +2,18 @@
 
 :root {
   /* Colours */
+  --primary: #ff4500;
+  --primary-light: #de9479;
+  --secondary: #138bbb;
+  --secondary-light: #87ceeb;
+  --support: #012222;
   --dark: #111;
   --light: #fffaf0;
-  --grey-xl: #eee;
-  --grey-lg: #ccc;
-  --grey-md: #888;
-  --grey-dk: #333;
+  --grey-extra-light: #eee;
+  --grey-light: #ccc;
+  --grey-medium: #898989;
+  --grey-dark: #555; 
+  --grey-extra-dark: #333;
 
   /* Fonts */
   --main-font: 'League Spartan', sans-serif;
