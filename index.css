@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Great+Vibes&family=League+Spartan:wght@100..900&display=swap');
 
 :root {
+  /* Colours */
   --dark: #111;
   --light: #fffaf0;
   --grey-xl: #eee;
   --grey-lg: #ccc;
   --grey-md: #888;
   --grey-dk: #333;
+
+  /* Fonts */
+  --main-font: 'League Spartan', sans-serif;
+  --heading-font: 'Bebas Neue', sans-serif;
+  --logo-font: 'Great Vibes', cursive;
+  --features-font: 'Caveat', cursive;
 }
