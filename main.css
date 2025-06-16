@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 :root {
-  
+  --light: #fffbea;
+  --text-dark: #111;
+  --text-light: #333;
+  --primary-dark: #6b5e3d;
+  --primary-light: #d6c89e;
+  --secondary-dark: #35414c;
+  --secondary-light: #b5c0c8;
 }
