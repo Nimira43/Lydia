@@ -107,6 +107,12 @@ a:hover {
   color: var(--yellow-dark);
 }
 
+p {
+  font-size: var(--p-size);
+  line-height: var(--p-height);
+  margin: var(--spacing-md) 0;
+}
+
 .logo {
   font-family: var(--logo-font);
   font-weight: 700;
