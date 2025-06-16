@@ -28,9 +28,13 @@
   --h2-size: 50px;
   --h2-height: 75px;
   --h3-size: 40px;
+  --h3-height: 56px;
   --h4-size: 32px;
+  --h4-height: 44px;
   --h5-size: 28px;
+  --h5-height: 36px;
   --h6-size: 22px;
+  --h6-height: 28px;
   --subtitle-size: 17px;
   --subtitle-height: 26px;
   --p-size: 18px;
@@ -42,7 +46,7 @@
   --spacing-sm: 8px;
   --spacing-md: 16px;
   --spacing-lg: 32px;
-  --spacing-sm: 64px;
+  --spacing-xl: 64px;
 }
 
 body {
@@ -54,8 +58,8 @@ body {
   margin: 0;
   box-sizing: border-box;
   padding: var(--spacing-sm) 0 0 0;
-  /* font-size: 1rem;
-  line-height: 1.7; */
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -82,19 +86,23 @@ h2 {
 
 h3 {
   font-size: var(--h3-size);
+  line-height: var(--h3-height);
 }
 
 h4 {
   font-size: var(--h4-size);
+  line-height: var(--h4-height);
   letter-spacing: 0.25px;
 }
 
 h5 {
   font-size: var(--h5-size);
+  line-height: var(--h5-height);
 }
 
 h6 {
   font-size: var(--h6-size);
+  line-height: var(--h6-height);
 }
 
 .logo {
