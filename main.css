@@ -38,7 +38,11 @@
   --secondary-text-size: 14px;
   --secondary-text-height: 18px;
   
-
+  --button-size: 16px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-sm: 64px;
 }
 
 body {
