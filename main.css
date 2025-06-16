@@ -1,11 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 :root {
+  --main-font: 'Crimson Pro', serif;
+  --heading-font: 'Cormorant Garamond', serif;
+  --logo-font: 'Cinzel Decorative', serif;
   --light: #fffbea;
   --text-dark: #111;
   --text-light: #333;
   --primary-dark: #6b5e3d;
-  --primary-light: #d6c89e;
+  --primary-light: #e2d2ac;
   --secondary-dark: #35414c;
   --secondary-light: #b5c0c8;
+  --red-dark: #7a2c2c;
+  --red-light: #e6b0aa;
+  --blue-dark: #2c3e50;
+  --blue-light: #bddae2;
+  --green-dark: #456651;
+  --green-light: #b9d8c2;
+  --yellow-dark: #b38b2f;
+  --yellow-light: #fdf3cf;
 }
+
+body {
+  font-family: var(--main-font);
+  color: var(--text-grey-dark);
+  background-color: var(--light);
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  font-style: normal;
+  color: var(--text-dark);
+}
+
