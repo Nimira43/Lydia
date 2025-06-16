@@ -134,7 +134,12 @@ p {
   color: var(--blue-dark);
 }
 
-
+.secondary-text {
+  font-size: var(--secondary-text-size);
+  line-height: var(--secondary-text-height);
+  color: var(--grey);
+  letter-spacing: 0.25px;
+}
 
 
 
