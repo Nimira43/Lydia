@@ -97,6 +97,15 @@ h6 {
   font-size: var(--h6-size);
 }
 
+a {
+  text-decoration: none;
+  color: var(--primary-dark); 
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--yellow-dark);
+}
 
 .logo {
   font-family: var(--logo-font);
