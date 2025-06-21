@@ -7,8 +7,9 @@
 
   --light: #fffbea;
   --grey: #adadad;
-  --text-dark: #111;
-  --text-light: #333;
+  --dark: #111;
+  --text-dark: #333;
+  --text-grey: #777;
   --primary-dark: #6b5e3d;
   --primary-light: #e2d2ac;
   --secondary-dark: #35414c;
@@ -59,7 +60,7 @@ html {
 }
 
 body {
-  color: var(--text-light);
+  color: var(--text-dark);
   background-color: var(--light);
   font-family: var(--main-font);
   font-weight: 300;
@@ -74,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   font-weight: 400;
   font-style: normal;
-  color: var(--text-dark);
+  color: var(--dark);
   margin: 0;
   width: 100%;
 }
@@ -154,10 +155,38 @@ p {
 .secondary-text {
   font-size: var(--secondary-text-size);
   line-height: var(--secondary-text-height);
-  color: var(--grey);
+  color: var(--text-grey);
   letter-spacing: 0.25px;
 }
 
+.primary-btn,
+.secondary-btn {
+  font-family: var(--main-font);
+  font-size: var(--button-size);
+  letter-spacing: 1.25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary-btn {  
+  background-color: var(--primary-dark);
+  color: var(--light);
+  padding: var(--spacing-sm) var(--spacing-md);
+  transition: opacity 0.3s ease-in;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: var(--red-dark);
+}
+
+.primary-btn:hover,
+.secondary-btn:hover {
+  opacity: 0.9;
+}
 
 
 
